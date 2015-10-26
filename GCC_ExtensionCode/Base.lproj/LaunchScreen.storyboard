@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a8E-9L-oYm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GCC_ExtensionCode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyx-2c-8Hw">
+                                <rect key="frame" x="20" y="391" width="335" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="KmN-vB-rMv"/>
+                                    <constraint firstAttribute="width" constant="335" id="gPx-iv-ex4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="mmx-bH-iZo">
+                                <rect key="frame" x="67" y="152" width="240" height="231"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="231" id="akh-ZR-nQH"/>
+                                    <constraint firstAttribute="width" constant="240" id="iDl-OF-0b3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mmx-bH-iZo" firstAttribute="centerX" secondItem="a8E-9L-oYm" secondAttribute="centerX" id="Z7B-3E-4pf"/>
+                            <constraint firstItem="nyx-2c-8Hw" firstAttribute="centerX" secondItem="mmx-bH-iZo" secondAttribute="centerX" id="ikR-qZ-Y8p"/>
+                            <constraint firstItem="nyx-2c-8Hw" firstAttribute="top" secondItem="mmx-bH-iZo" secondAttribute="bottom" constant="8" id="lIe-ff-laF"/>
+                            <constraint firstItem="mmx-bH-iZo" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="132" id="lka-JV-FP2"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon.png" width="360" height="360"/>
+    </resources>
+</document>
